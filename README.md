@@ -25,11 +25,11 @@ http://localhost:7000/manifest.json
 
 ## Configuration
 
-Open `index.js` and set your credentials at the top of the file:
+Create a .env file in the root folder containing the two following lines :
 
 ```js
-const LETTERBOXD_USERNAME = "username";
-const TMDB_API_KEY = "tmdb_key";
+const LETTERBOXD_USERNAME = username;
+const TMDB_API_KEY = tmdb_key;
 ```
 
 ## Architecture
